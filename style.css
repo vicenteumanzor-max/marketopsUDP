@@ -1,6 +1,14 @@
-header{
-    background-color : black;
+main {
+    background-color: red;
+    
 }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 *{
     margin : 0;
     padding : 0;
@@ -8,15 +16,9 @@ header{
     font-family : 'arial', sans-serif;
 }
 
-.titulo{
-    text-align : center;
-    font-size : 24px;
-    padding-top : 20px;
-    margin-top : 20px;
-}
 .slider-box{
-    width : 200px;
-    height : 1200px;
+    width : 100%;
+    height : 100%;
     margin : 20px auto 0; 
     overflow : hidden;
 }
@@ -31,27 +33,38 @@ header{
     list-style : none;
     position : relative;
 }
-.texto{
-    position : absolute;
-    text-align : center;
-    padding : 0 250px;
-    top: 250px
-    color : white;
-}
-.texto h2{
-    font-size : 40px;
-    margin-bottom : 20px;
-}
 .slider-box img{
     width : 100%;
     height : auto;
 }   
 @keyframes slide{
-   0%{margin-left : 0%;}
-    20%{margin-left : 0%;}
-    25%{margin-left : -100%;}
-    45%{margin-left : -100%;}
-    50%{margin-left : -200%;}
-    70%{margin-left : -200%;}
-    100%{margin-left : -300%;} 
+  0% {
+        margin-left: 0%;
+    }
+
+    40% {
+        margin-left: 0%;
+    }
+
+    50% {
+        margin-left: -100%;
+    }
+
+    90% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+   
+}
+.registro{
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
