@@ -1,0 +1,57 @@
+header{
+    background-color : black;
+}
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'arial', sans-serif;
+}
+
+.titulo{
+    text-align : center;
+    font-size : 24px;
+    padding-top : 20px;
+    margin-top : 20px;
+}
+.slider-box{
+    width : 200px;
+    height : 1200px;
+    margin : 20px auto 0; 
+    overflow : hidden;
+}
+.slider-box ul{
+    display : flex;
+    padding : 10px;
+    width : 200%;
+    animation : slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width : 100%;
+    list-style : none;
+    position : relative;
+}
+.texto{
+    position : absolute;
+    text-align : center;
+    padding : 0 250px;
+    top: 250px
+    color : white;
+}
+.texto h2{
+    font-size : 40px;
+    margin-bottom : 20px;
+}
+.slider-box img{
+    width : 100%;
+    height : auto;
+}   
+@keyframes slide{
+   0%{margin-left : 0%;}
+    20%{margin-left : 0%;}
+    25%{margin-left : -100%;}
+    45%{margin-left : -100%;}
+    50%{margin-left : -200%;}
+    70%{margin-left : -200%;}
+    100%{margin-left : -300%;} 
+}
