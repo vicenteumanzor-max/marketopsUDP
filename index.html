@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarketOps</title>
-    <header>
-        <h1> <a href="/index.html"> <center> <span style="color: red;"> Market<span style="color: black;">Ops</span> </span> </center> </a> </h1>
-        <h2> <a href="/html/marketops.html"> ¿Quienes somos? </a> </h2>
-    </header>
+    <link rel="stylesheet" href="style.css">
 </head>
+<header>
+   <a href="index.html"><img src="img/logo.png" alt="Logo de MarketOps" width="100"></a>
+</header>
+<main>
 <body>
-    <h2>Iniciar Sesión</h2>
-    <form id="login-form"> 
-        <label for="username">Usuario:</label>
-        <input type="text" id="username" name="username" required><br><br>
+    <h1 class="titulo"><center>Ofertas TOP disponibles</center> </h1>
+    <div class="slider-box">
+        <ul>
+            <li>
+                <img src="img/arroz.jpg" alt="Arroz Tucapel">
+            </li>
+            <li>
+                <img src="img/Carnes.jpg" alt="Lomo vetado o liso">
+            </li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <p>© 2026 MarketOps. Todos los derechos reservados.</p>
+</footer>
+</body>
 
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <label for="confirm-password">Confirmar Contraseña:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
-        <p id="mensaje-error" style="color: red;"></p>
-        <input type="submit" value="Iniciar Sesión">
-        <p>¿No tienes una cuenta? <a href="/html/registro.html">Regístrate aquí</a></p>
-        </form>
-<script src="js/login.js"></script>
+<script src="js/registro.js"></script>
 </html>
