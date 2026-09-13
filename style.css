@@ -1,0 +1,163 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: Verdana;
+    font-weight: 400;
+}
+.nav {
+    display: flex;
+    align-items: center; 
+    gap: 30px; 
+    background-color: white;
+    border-bottom: 2px solid #eeeeee; 
+}.barra{
+    display: flex;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+.barra a {
+    text-decoration: none; 
+    color: #333333;
+    font-weight: bold;
+}
+.slider-box{
+    width : 700px;
+    margin: 25px; 
+    border-radius: 75px;
+    margin : auto; 
+    overflow : hidden;
+
+}
+.slider-box ul{
+    display : flex;
+    padding : 10px;
+    width : 200%;
+    animation : slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width : 100%;
+    list-style : none;
+    position : relative;
+}
+.slider-box img{
+    width : 100%;
+    height : auto;
+}   
+@keyframes slide{
+  0% {
+        margin-left: 0%;
+    }
+
+    40% {
+        margin-left: 0%;
+    }
+
+    50% {
+        margin-left: -100%;
+    }
+
+    90% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+   
+}
+.vendidos{
+    width: 100%;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    box-sizing: border-box;
+}
+.galeria{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.producto{
+    width: 220px;
+    text-align: center;
+}
+.producto img{
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap:5px;
+    margin-top: 10px;
+}
+h6{
+    color: gray ;
+}
+.descripcion{
+    margin-top: 10px;
+}
+.descripcion p{
+    margin: 0;
+    font-size: 16px;
+}
+.inicio-sesion{
+    width: 350px;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: white;
+    border-radius: 67px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+}
+.Somos{
+    color: white;
+    margin: 50px auto;
+    box-shadow: 0 4px 15px white;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    text-align: center;
+}
+.Somos h2{
+text-align: center;
+padding-bottom: 25px;
+font-size: 40px;
+}
+.Somos a{   
+    color: rgb(228, 248, 157);
+    font-size: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+.sucursal{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color:aliceblue;
+}
+.datos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
