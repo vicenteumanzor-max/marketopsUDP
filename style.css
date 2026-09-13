@@ -1,10 +1,11 @@
 
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Verdana;
     font-weight: 400;
+    max-width: 100%;
 }
 .nav {
     display: flex;
@@ -159,5 +160,90 @@ footer a{
     padding-bottom: 10px;
 }
 
+
+.lista-sucursales {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+.lista-sucursales li {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    flex: 1 1 164px;
+}
+
+.lista-sucursales li:hover {
+    transform: translateY(-5px);
+}
+
+.lista-sucursales li p {
+    margin: 8px 0;
+}
+
+.texto-rojo {
+    color: #e63946;
+}
+
+.texto-verde {
+    color: #2a9d8f;
+}
+
+.btn-ver {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-ver:hover {
+    background-color: #1e5c1e;
+}
+
+.acciones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.acciones button {
+    padding: 8px 16px;
+    border: 2px solid darkgreen;
+    background: white;
+    color: darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.acciones button:hover {
+    background: darkgreen;
+    color: white;
+}
+
+.usuario {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario .btn {
+    background: darkgreen;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 15px;
+    text-decoration: none;
+}
 
 
