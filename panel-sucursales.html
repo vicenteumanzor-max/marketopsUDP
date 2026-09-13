@@ -8,93 +8,112 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-        <a href="index.html"> <img src="img/logo.png" alt="Logo de MarketOps" width="100"></a>
+        
+      
+        
+
+        <div class="nav">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo de MarketOps" width="100">
+            </a>
+
+            <nav class="barra">
+                <a href="detalles.html">Detalles Sucursales</a>
+                <a href="panel-sucursales.html">Panel Sucursales</a>
+
+                <div class="usuario">
+                <p>Usuario: ---</p>
+                <a href="index.html" class="btn">Cerrar Sesión</a>
+                </div>
+            </nav>
+
+        </div>
+      <div class="titulo">
         <h1>Panel de Sucursales</h1>
         </div>
 
-        <div class="usuario">
-            <p>Usuario: ---</p>
-                <a href="index.html" class="btn">Cerrar Sesión</a>
+        <div class="acciones">
+                <h2>Acciones</h2>
+                <button id="filtrar-todas">Ver todas</button>
+                <button id="solo-fallas">Solo con fallas</button>
         </div>
-    </header>
-    
+
     <main>
         <section class="sucursales">
             <h2>Lista de Sucursales</h2>
             <p> Aquí puedes ver todas las sucursales disponibles y sus equipos. </p>
             <br>
             <ul class="lista-sucursales">
-                <li>Sucursal 1:
+                <li>Sucursal 1 - Maipú:
                     <p>Equipos totales: <b>10</b> </p>
                     <p>Estado: <b class="texto-rojo">2 equipos con falla</b></p>
             
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 2: 
+                <li>Sucursal 2 - Estación Central: 
                     <p>Equipos totales: <b>15</b> </p>
                     <p>Estado: <b class="texto-rojo">6 equipos con falla</b></p>
             
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 3:
+                <li>Sucursal 3 - Pudahuel:
                     <p>Equipos totales: <b>15</b> </p>
                     <p>Estado: <b class="texto-rojo">7 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
 
-                <li>Sucursal 4:
+                <li>Sucursal 4 - Santiago Centro:
                     <p>Equipos totales: <b>11</b> </p>
                     <p>Estado:  <b class="texto-verde">Sin fallas</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 5:
+                <li>Sucursal 5 - Providencia:
                     <p>Equipos totales: <b>12</b> </p>
                     <p>Estado: <b class="texto-verde">Sin fallas</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 6:
+                <li>Sucursal 6 - Melipilla:
                     <p>Equipos totales: <b>9</b> </p>
                     <p>Estado: <b class="texto-rojo">2 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 7:
+                <li>Sucursal 7 - Rancagua:
                     <p>Equipos totales: <b>9</b> </p>
                     <p>Estado: <b class="texto-rojo">4 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 8:
+                <li>Sucursal 8 - Viña del Mar:
                     <p>Equipos totales: <b>10</b> </p>
                     <p>Estado: <b class="texto-rojo">5 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 9:
+                <li>Sucursal 9 - Las Condes:
                     <p>Equipos totales: <b>12</b> </p>
                     <p>Estado: <b class="texto-rojo">2 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 10:
+                <li>Sucursal 10 - La Florida:
                     <p>Equipos totales: <b>10</b> </p>
                     <p>Estado: <b class="texto-verde">Sin fallas</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>
-                <li>Sucursal 11: 
+                <li>Sucursal 11 - Talca: 
                     <p>Equipos totales: <b>13</b> </p>
                     <p>Estado: <b class="texto-verde">Sin fallas</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
                 </li>
                 <br>    
-                <li>Sucursal 12: 
+                <li>Sucursal 12 - Quilicura: 
                     <p>Equipos totales: <b>15</b> </p>
                     <p>Estado: <b class="texto-rojo">2 equipos con falla</b></p>
                     <a href="detalles.html" class="btn-ver">Ver equipos</a>
@@ -102,11 +121,7 @@
         </section>
 
         <br>
-        <div class="acciones">
-            <h2>Acciones</h2>
-            <button id="filtrar-todas">Ver todas</button>
-            <button id="solo-fallas">Solo con fallas</button>
-        </div>
+      
 
     </main>
     
