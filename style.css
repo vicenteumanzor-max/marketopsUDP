@@ -1,10 +1,10 @@
-
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Verdana;
     font-weight: 400;
+    max-width: 100%;
 }
 .nav {
     display: flex;
@@ -36,7 +36,8 @@ h1{
     display : flex;
     padding : 10px;
     width : 200%;
-    animation : slide 20s infinite alternate ease-in-out;
+    max-width: none;
+    animation : slide 25s infinite alternate ease-in-out;
 }
 .slider-box li{
     width : 100%;
@@ -48,25 +49,20 @@ h1{
     height : auto;
 }   
 @keyframes slide{
-  0% {
-        margin-left: 0%;
-    }
+    0% {
+        margin-left: 0%;}
 
     40% {
-        margin-left: 0%;
-    }
+        margin-left: 0%;}
 
     50% {
-        margin-left: -100%;
-    }
+        margin-left: -100%;}
 
     90% {
-        margin-left: -100%;
-    }
+        margin-left: -100%;}
 
     100% {
-        margin-left: 0%;
-    }
+        margin-left: 0%;}
    
 }
 .vendidos{
@@ -160,4 +156,142 @@ footer a{
 }
 
 
+.lista-sucursales {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
 
+.lista-sucursales li {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    flex: 1 1 164px;
+}
+
+.lista-sucursales li:hover {
+    transform: translateY(-5px);
+}
+
+.lista-sucursales li p {
+    margin: 8px 0;
+}
+
+.texto-rojo {
+    color: #e63946;
+}
+
+.texto-verde {
+    color: #2a9d8f;
+}
+
+.btn-ver {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-ver:hover {
+    background-color: #1e5c1e;
+}
+
+.acciones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.acciones button {
+    padding: 8px 16px;
+    border: 2px solid darkgreen;
+    background: white;
+    color: darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.acciones button:hover {
+    background: darkgreen;
+    color: white;
+}
+
+.usuario {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario .btn {
+    background: darkgreen;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.acciones select {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    font-weight: bold;
+    background: white;
+}
+
+.resumen-sucursal {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.resumen-sucursal h2 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.categoria-equipos {
+    margin-bottom: 25px;
+}
+
+.categoria-equipos h3 {
+    margin-bottom: 12px;
+}
+
+.lista-equipos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+.lista-equipos li {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    flex: 1 1 164px;
+}
+
+.lista-equipos li:hover {
+    transform: translateY(-5px);
+}
+
+.lista-equipos li p {
+    margin: 8px 0;
+}
