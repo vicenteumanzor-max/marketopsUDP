@@ -37,7 +37,8 @@ h1{
     display : flex;
     padding : 10px;
     width : 200%;
-    animation : slide 20s infinite alternate ease-in-out;
+    max-width: none;
+    animation : slide 25s infinite alternate ease-in-out;
 }
 .slider-box li{
     width : 100%;
@@ -49,25 +50,20 @@ h1{
     height : auto;
 }   
 @keyframes slide{
-  0% {
-        margin-left: 0%;
-    }
+    0% {
+        margin-left: 0%;}
 
     40% {
-        margin-left: 0%;
-    }
+        margin-left: 0%;}
 
     50% {
-        margin-left: -100%;
-    }
+        margin-left: -100%;}
 
     90% {
-        margin-left: -100%;
-    }
+        margin-left: -100%;}
 
     100% {
-        margin-left: 0%;
-    }
+        margin-left: 0%;}
    
 }
 .vendidos{
