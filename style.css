@@ -6,8 +6,20 @@
     font-family: Verdana;
     font-weight: 400;
 }
-h1{
-    text-align: center;
+.nav {
+    display: flex;
+    align-items: center; 
+    gap: 30px; 
+    background-color: white;
+    border-bottom: 2px solid #eeeeee; 
+}.barra{
+    display: flex;
+    gap: 20px;
+}
+.barra a {
+    text-decoration: none; 
+    color: #333333;
+    font-weight: bold;
 }
 .slider-box{
     width : 700px;
@@ -118,3 +130,19 @@ footer a{
     color:white;
     text-decoration: none;
 }
+.sucursales{
+    background-color:aliceblue;
+    width: 100%;  
+}
+.sucursal{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.datos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
