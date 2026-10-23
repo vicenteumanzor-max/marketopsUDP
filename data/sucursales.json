@@ -87,7 +87,7 @@
         {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
         {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
         {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}] 
+        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}],
         "balanzas":[
         {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": ""},
         {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
