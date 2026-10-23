@@ -1,0 +1,284 @@
+[{
+    "id":1,
+    "nombre":"Maipú",
+    "direccion":"Av. Portales 2471, Maipú",
+    "total":10,
+    "fallas":2,
+    "equipos":{
+        "cajas":[
+        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"}],
+        "balanzas":[
+        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"},
+        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
+        {"id":"B3","nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": ""}],
+        "impresoras":[
+        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": ""}]
+    }
+},
+{
+    "id":2,
+    "nombre":"Estación Central",
+    "direccion":"",
+    "total":15,
+    "fallas":6,
+    "equipos":{
+        "cajas":[
+        {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"},
+        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C4", "nombre": "Caja 4", "estado": "Con fallas", "descripcion": "Problema con caja registradora"},
+        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"},
+        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}, 
+        {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas", "descripcion": "Problema con monitor de caja"}, 
+        {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C10", "nombre": "Caja 10", "estado": "Sin fallas", "descripcion": ""}],
+        "balanzas":[
+        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con precios de productos"},
+        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"}],
+        "impresoras":[
+        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": ""}]
+}
+},
+{
+    "id":3,
+    "nombre":"Pudahuel",
+    "direccion":"",
+    "total":15,
+    "fallas":7,
+    "equipos":{
+        "cajas":[
+        {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con monitor de caja"},
+        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C3", "nombre": "Caja 3", "estado": "Con fallas", "descripcion": "Problema con caja registradora"},
+        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con maquina de pagos"},
+        {"id": "C6", "nombre": "Caja 6", "estado": "Sin  fallas","descripcion":""},
+        {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas","descripcion":"Problema con lector de tarjetas"},
+        {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas","descripcion":""},
+        {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas","descripcion":""},
+        {"id": "C10","nombre": "Caja 10", "estado": "Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con botones"},
+        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"}],
+        "impresoras":[
+        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Con fallas","descripcion":"Problema con conexión a red"}]
+}
+},
+{
+    "id":4,
+    "nombre":"Santiago Centro",
+    "direccion":"",
+    "total":11,
+    "fallas":0,
+    "equipos":{
+        "cajas":[
+        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}],
+        "balanzas":[
+        {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": ""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":5,
+    "nombre":"Providencia",
+    "direccion":"",
+    "total":12,
+    "fallas":0,
+    "equipos":{
+        "cajas":[
+        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
+        {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": ""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":6,
+    "nombre":"Melipilla",
+    "direccion":"",
+    "total":9,
+    "fallas":2,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Con fallas","descripcion":"Problema con lector de tarjetas"},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Problema con tinta de impresión"},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":7,
+    "nombre":"Rancagua",
+    "direccion":"",
+    "total":8,
+    "fallas":4,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Conf allas","descripcion":"Problema con impresión de boletas"},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Problema con sensor de peso"},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Con fallas","descripcion":"Problema con precio de productos"}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Problema con tinta de impresión"},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":8,
+    "nombre":"Viña del mar",
+    "direccion":"",
+    "total":10,
+    "fallas":4,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Con fallas","descripcion":"Problema con lector de tarjetas"},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Con fallas","descripcion":"Problema con impresión de boletas"},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
+        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Con fallas","descripcion":"Botones faltantes"},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sinfallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Se traba al imprimir"},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+
+}
+},
+{
+    "id":9,
+    "nombre":"Las Condes",
+    "direccion":"",
+    "total":12,
+    "fallas":2,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
+        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
+        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
+        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Báscula estropeada"},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Con fallas","descripcion":"Se traba el papel al imprimir"}]
+}
+},
+{
+    "id":10,
+    "nombre":"La Florida",
+    "direccion":"",
+    "total":10, 
+    "fallas":0,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
+        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":11,
+    "nombre":"Talca",
+    "direccion":"",
+    "total":13,
+    "fallas":0,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
+        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
+        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
+        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""},
+        {"id":"C8","nombre":"Caja 8","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+},
+{
+    "id":12,
+    "nombre":"Quilicura",
+    "direccion":"",
+    "total":15,
+    "fallas":2,
+    "equipos":{
+        "cajas":[
+        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
+        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
+        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
+        {"id":"C4","nombre":"Caja 4","estado":"Con fallas","descripcion":"Monitor de caja dañado"},
+        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
+        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
+        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""},
+        {"id":"C8","nombre":"Caja 8","estado":"Sin fallas","descripcion":""},
+        {"id":"C9","nombre":"Caja 9","estado":"Sin fallas","descripcion":""},
+        {"id":"C10","nombre":"Caja 10","estado":"Sin fallas","descripcion":""}],
+        "balanzas":[
+        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
+        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Báscula rota"},
+        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
+        "impresoras":[
+        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
+        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
+}
+}]
