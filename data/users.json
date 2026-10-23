@@ -4,6 +4,7 @@
         "nombre": "Soporte Ejemplo",
         "rol" : "soporte",
         "correo": "soporte@marketops.cl",
+        "password": "ejemplosupp",
         "telefono": 912345678
     },
 
@@ -12,6 +13,7 @@
         "nombre" : "Administrativo Ejemplo",
         "rol" : "administrativo",
         "correo" : "admin@marketops.cl",
+        "password": "ejemploadmin",
         "telefono" : 923456789
     },
     {
@@ -19,6 +21,7 @@
         "nombre": "Encargado Maipú",
         "rol": "encargado",
         "correo": "maipu@marketops.cl",
+        "password": "ejemplomaipu",
         "sucursal": "Maipú",
         "telefono" : 934567890
     },
@@ -27,6 +30,7 @@
         "nombre" : "Encargado Providencia",
         "rol" : "encargado",
         "correo": "providencia@marketops.cl",
+        "password": "ejemploprovi",
         "sucursal": "Providencia",
         "telefono": 945678901
     },
@@ -35,6 +39,7 @@
         "nombre": "Encargado Melipilla",
         "rol" : "encargado",
         "correo": "melipilla@marketops.cl",
+        "password":"ejemplomeli",
         "sucursal": "Melipilla",
         "telefono": 956789012
     }
