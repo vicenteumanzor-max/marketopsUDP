@@ -1,0 +1,41 @@
+[
+    {
+        "id" :1,
+        "nombre": "Soporte Ejemplo",
+        "rol" : "soporte",
+        "correo": "soporte@marketops.cl",
+        "telefono": 912345678
+    },
+
+    {
+        "id" : 2,
+        "nombre" : "Administrativo Ejemplo",
+        "rol" : "administrativo",
+        "correo" : "admin@marketops.cl",
+        "telefono" : 923456789
+    },
+    {
+        "id": 3,
+        "nombre": "Encargado Maipú",
+        "rol": "encargado",
+        "correo": "maipu@marketops.cl",
+        "sucursal": "Maipú",
+        "telefono" : 934567890
+    },
+    {
+        "id":4,
+        "nombre" : "Encargado Providencia",
+        "rol" : "encargado",
+        "correo": "providencia@marketops.cl",
+        "sucursal": "Providencia",
+        "telefono": 945678901
+    },
+    {
+        "id": 5,
+        "nombre": "Encargado Melipilla",
+        "rol" : "encargado",
+        "correo": "melipilla@marketops.cl",
+        "sucursal": "Melipilla",
+        "telefono": 956789012
+    }
+]
