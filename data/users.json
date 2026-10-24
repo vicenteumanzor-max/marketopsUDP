@@ -23,6 +23,7 @@
         "correo": "maipu@marketops.cl",
         "password": "ejemplomaipu",
         "sucursal": "Maipú",
+        "id_sucursal": 1,
         "telefono" : 934567890
     },
     {
@@ -32,6 +33,7 @@
         "correo": "providencia@marketops.cl",
         "password": "ejemploprovi",
         "sucursal": "Providencia",
+        "id_sucursal": 5,
         "telefono": 945678901
     },
     {
@@ -41,6 +43,7 @@
         "correo": "melipilla@marketops.cl",
         "password":"ejemplomeli",
         "sucursal": "Melipilla",
+        "id_sucursal": 6,
         "telefono": 956789012
     }
 ]
