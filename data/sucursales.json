@@ -1,284 +1,321 @@
-[{
-    "id":1,
-    "nombre":"Maipú",
-    "direccion":"Av. Portales 2471, Maipú",
-    "total":10,
-    "fallas":2,
-    "equipos":{
-        "cajas":[
-        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"}],
-        "balanzas":[
-        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"},
-        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
-        {"id":"B3","nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": ""}],
-        "impresoras":[
-        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": ""}]
+[
+    {
+        "id": 1,
+        "nombre": "Maipú",
+        "direccion": "Av. Portales 2471",
+        "total": 10,
+        "fallas": 2,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "22-10-2026, 09:15:00"}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con sensor de peso", "fechaReporte": "23-10-2026, 11:30:00"},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Estación Central",
+        "direccion": "",
+        "total": 15,
+        "fallas": 6,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "21-10-2026, 14:20:00"},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Con fallas", "descripcion": "Problema con caja registradora", "fechaReporte": "23-10-2026, 08:45:00"},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "23-10-2026, 09:10:00"},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}, 
+                {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas", "descripcion": "Problema con monitor de caja", "fechaReporte": "22-10-2026, 16:30:00"}, 
+                {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C10", "nombre": "Caja 10", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con precios de productos", "fechaReporte": "20-10-2026, 10:00:00"},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso", "fechaReporte": "24-10-2026, 09:15:00"}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Pudahuel",
+        "direccion": "Calle falsa 123",
+        "total": 15,
+        "fallas": 7,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con monitor de caja", "fechaReporte": "19-10-2026, 11:20:00"},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Con fallas", "descripcion": "Problema con caja registradora", "fechaReporte": "22-10-2026, 15:10:00"},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con maquina de pagos", "fechaReporte": "23-10-2026, 09:05:00"},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "23-10-2026, 13:40:00"},
+                {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C10", "nombre": "Caja 10", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con botones", "fechaReporte": "21-10-2026, 08:30:00"},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso", "fechaReporte": "22-10-2026, 17:00:00"}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Con fallas", "descripcion": "Problema con conexión a red", "fechaReporte": "24-10-2026, 10:15:00"}
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Santiago Centro",
+        "direccion": "Av. Alameda Libertador Bernardo O'Higgins 1255",
+        "total": 11,
+        "fallas": 0,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Providencia",
+        "direccion": "Av. Providencia 1402",
+        "total": 12,
+        "fallas": 0,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Melipilla",
+        "direccion": "Av. Siempre Viva 742",
+        "total": 9,
+        "fallas": 2,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "23-10-2026, 12:45:00"},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Con fallas", "descripcion": "Problema con tinta de impresión", "fechaReporte": "24-10-2026, 09:30:00"},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Rancagua",
+        "direccion": "Av. Libertador Gral. Bernardo O'Higgins 1099",
+        "total": 8,
+        "fallas": 4,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con impresión de boletas", "fechaReporte": "22-10-2026, 14:00:00"},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Con fallas", "descripcion": "Problema con sensor de peso", "fechaReporte": "23-10-2026, 10:15:00"},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con precio de productos", "fechaReporte": "23-10-2026, 16:45:00"}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Con fallas", "descripcion": "Problema con tinta de impresión", "fechaReporte": "24-10-2026, 08:20:00"},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Viña del mar",
+        "direccion": "Arturo Prat 143, Viña del Mar",
+        "total": 10,
+        "fallas": 4,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas", "fechaReporte": "21-10-2026, 11:30:00"},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Con fallas", "descripcion": "Problema con impresión de boletas", "fechaReporte": "22-10-2026, 13:10:00"},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Botones faltantes", "fechaReporte": "23-10-2026, 09:00:00"},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Con fallas", "descripcion": "Se traba al imprimir", "fechaReporte": "24-10-2026, 10:45:00"},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Las Condes",
+        "direccion": "Los Dominicos 8134",
+        "total": 12,
+        "fallas": 2,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C7", "nombre": "Caja 7", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Con fallas", "descripcion": "Báscula estropeada", "fechaReporte": "23-10-2026, 15:20:00"},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Con fallas", "descripcion": "Se traba el papel al imprimir", "fechaReporte": "24-10-2026, 11:15:00"}
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "La Florida",
+        "direccion": "Av. Vicuña Mackenna 8101",
+        "total": 10, 
+        "fallas": 0,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "nombre": "Talca",
+        "direccion": "Av. Carlos Schorr 986",
+        "total": 13,
+        "fallas": 0,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C7", "nombre": "Caja 7", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "nombre": "Quilicura",
+        "direccion": "Las Torres Nte. 142, Quilicura",
+        "total": 15,
+        "fallas": 2,
+        "equipos": {
+            "cajas": [
+                {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C4", "nombre": "Caja 4", "estado": "Con fallas", "descripcion": "Monitor de caja dañado", "fechaReporte": "22-10-2026, 17:30:00"},
+                {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C7", "nombre": "Caja 7", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "C10", "nombre": "Caja 10", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "balanzas": [
+                {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "B2", "nombre": "Balanza verduras", "estado": "Con fallas", "descripcion": "Báscula rota", "fechaReporte": "23-10-2026, 09:40:00"},
+                {"id": "B3", "nombre": "Balanza fruta", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ],
+            "impresoras": [
+                {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""},
+                {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": "", "fechaReporte": ""}
+            ]
+        }
     }
-},
-{
-    "id":2,
-    "nombre":"Estación Central",
-    "direccion":"",
-    "total":15,
-    "fallas":6,
-    "equipos":{
-        "cajas":[
-        {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"},
-        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C4", "nombre": "Caja 4", "estado": "Con fallas", "descripcion": "Problema con caja registradora"},
-        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con lector de tarjetas"},
-        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}, 
-        {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas", "descripcion": "Problema con monitor de caja"}, 
-        {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C10", "nombre": "Caja 10", "estado": "Sin fallas", "descripcion": ""}],
-        "balanzas":[
-        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con precios de productos"},
-        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"}],
-        "impresoras":[
-        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "I2", "nombre": "Impresora 2", "estado": "Sin fallas", "descripcion": ""}]
-}
-},
-{
-    "id":3,
-    "nombre":"Pudahuel",
-    "direccion":"",
-    "total":15,
-    "fallas":7,
-    "equipos":{
-        "cajas":[
-        {"id": "C1", "nombre": "Caja 1", "estado": "Con fallas", "descripcion": "Problema con monitor de caja"},
-        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C3", "nombre": "Caja 3", "estado": "Con fallas", "descripcion": "Problema con caja registradora"},
-        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C5", "nombre": "Caja 5", "estado": "Con fallas", "descripcion": "Problema con maquina de pagos"},
-        {"id": "C6", "nombre": "Caja 6", "estado": "Sin  fallas","descripcion":""},
-        {"id": "C7", "nombre": "Caja 7", "estado": "Con fallas","descripcion":"Problema con lector de tarjetas"},
-        {"id": "C8", "nombre": "Caja 8", "estado": "Sin fallas","descripcion":""},
-        {"id": "C9", "nombre": "Caja 9", "estado": "Sin fallas","descripcion":""},
-        {"id": "C10","nombre": "Caja 10", "estado": "Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id": "B1", "nombre": "Balanza pan", "estado": "Con fallas", "descripcion": "Problema con botones"},
-        {"id": "B2", "nombre": "Balanza verduras", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "B3", "nombre": "Balanza fruta", "estado": "Con fallas", "descripcion": "Problema con sensor de peso"}],
-        "impresoras":[
-        {"id": "I1", "nombre": "Impresora 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Con fallas","descripcion":"Problema con conexión a red"}]
-}
-},
-{
-    "id":4,
-    "nombre":"Santiago Centro",
-    "direccion":"",
-    "total":11,
-    "fallas":0,
-    "equipos":{
-        "cajas":[
-        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C6", "nombre": "Caja 6", "estado": "Sin fallas", "descripcion": ""}],
-        "balanzas":[
-        {"id": "B1", "nombre": "Balanza pan", "estado": "Sin fallas", "descripcion": ""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":5,
-    "nombre":"Providencia",
-    "direccion":"",
-    "total":12,
-    "fallas":0,
-    "equipos":{
-        "cajas":[
-        {"id": "C1", "nombre": "Caja 1", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C2", "nombre": "Caja 2", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C3", "nombre": "Caja 3", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C4", "nombre": "Caja 4", "estado": "Sin fallas", "descripcion": ""},
-        {"id": "C5", "nombre": "Caja 5", "estado": "Sin fallas", "descripcion": ""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":6,
-    "nombre":"Melipilla",
-    "direccion":"",
-    "total":9,
-    "fallas":2,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Con fallas","descripcion":"Problema con lector de tarjetas"},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Problema con tinta de impresión"},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":7,
-    "nombre":"Rancagua",
-    "direccion":"",
-    "total":8,
-    "fallas":4,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Conf allas","descripcion":"Problema con impresión de boletas"},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Problema con sensor de peso"},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Con fallas","descripcion":"Problema con precio de productos"}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Problema con tinta de impresión"},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":8,
-    "nombre":"Viña del mar",
-    "direccion":"",
-    "total":10,
-    "fallas":4,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Con fallas","descripcion":"Problema con lector de tarjetas"},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Con fallas","descripcion":"Problema con impresión de boletas"},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
-        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Con fallas","descripcion":"Botones faltantes"},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sinfallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Con fallas","descripcion":"Se traba al imprimir"},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-
-}
-},
-{
-    "id":9,
-    "nombre":"Las Condes",
-    "direccion":"",
-    "total":12,
-    "fallas":2,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
-        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
-        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
-        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Báscula estropeada"},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Con fallas","descripcion":"Se traba el papel al imprimir"}]
-}
-},
-{
-    "id":10,
-    "nombre":"La Florida",
-    "direccion":"",
-    "total":10, 
-    "fallas":0,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
-        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":11,
-    "nombre":"Talca",
-    "direccion":"",
-    "total":13,
-    "fallas":0,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Sin fallas","descripcion":""},
-        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
-        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
-        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""},
-        {"id":"C8","nombre":"Caja 8","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Sin fallas","descripcion":""},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-},
-{
-    "id":12,
-    "nombre":"Quilicura",
-    "direccion":"",
-    "total":15,
-    "fallas":2,
-    "equipos":{
-        "cajas":[
-        {"id":"C1","nombre":"Caja 1","estado":"Sin fallas","descripcion":""},
-        {"id":"C2","nombre":"Caja 2","estado":"Sin fallas","descripcion":""},
-        {"id":"C3","nombre":"Caja 3","estado":"Sin fallas","descripcion":""},
-        {"id":"C4","nombre":"Caja 4","estado":"Con fallas","descripcion":"Monitor de caja dañado"},
-        {"id":"C5","nombre":"Caja 5","estado":"Sin fallas","descripcion":""},
-        {"id":"C6","nombre":"Caja 6","estado":"Sin fallas","descripcion":""},
-        {"id":"C7","nombre":"Caja 7","estado":"Sin fallas","descripcion":""},
-        {"id":"C8","nombre":"Caja 8","estado":"Sin fallas","descripcion":""},
-        {"id":"C9","nombre":"Caja 9","estado":"Sin fallas","descripcion":""},
-        {"id":"C10","nombre":"Caja 10","estado":"Sin fallas","descripcion":""}],
-        "balanzas":[
-        {"id":"B1","nombre":"Balanza pan","estado":"Sin fallas","descripcion":""},
-        {"id":"B2","nombre":"Balanza verduras","estado":"Con fallas","descripcion":"Báscula rota"},
-        {"id":"B3","nombre":"Balanza fruta","estado":"Sin fallas","descripcion":""}],
-        "impresoras":[
-        {"id":"I1","nombre":"Impresora 1","estado":"Sin fallas","descripcion":""},
-        {"id":"I2","nombre":"Impresora 2","estado":"Sin fallas","descripcion":""}]
-}
-}]
+]
