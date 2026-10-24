@@ -21,10 +21,23 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (ruta.includes('index.html')) {
         if (usuarioActivo.rol === 'administrativo' || usuarioActivo.rol === 'soporte') {
+            alert("Ya inició sesión. Será redireccionado.")
             window.location.href = "html/panel-sucursales.html";
             return;
         } else {
+            alert("Ya inició sesión. Será redireccionado.")
             window.location.href = `html/detalles.html?id=${usuarioActivo.id_sucursal}`;
+            return;
+        }
+    }
+   if (ruta.includes('detalles.html') && usuarioActivo.rol === 'encargado') {
+        const params = new URLSearchParams(window.location.search);
+        const idSucursalURL = params.get('id');
+
+        
+        if (idSucursalURL && parseInt(idSucursalURL) !== parseInt(usuarioActivo.id_sucursal)) {
+            alert("Acceso denegado. No tienes permisos para ver otra sucursal.");
+            window.location.href = `detalles.html?id=${usuarioActivo.id_sucursal}`;
             return;
         }
     }
@@ -33,7 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (cerrarsesion) {
         cerrarsesion.addEventListener('click', function(event) {
             event.preventDefault();
-            sessionStorage.removeItem('usuarioLogueado');
+            sessionStorage.clear(); 
+            alert("Sesión cerrada correctamente.")
             window.location.href = '../index.html';
         });
     }
@@ -48,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (barra) {
             barra.insertAdjacentHTML('afterbegin', `
-                <a href="detalles.html">Detalles Sucursales</a>
                 <a href="panel-sucursales.html">Panel Sucursales</a>
             `);
         }
