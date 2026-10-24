@@ -4,54 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarketOps - Panel de Sucursales</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/panel-sucursales.css">
-    <link rel="stylesheet" href="css/stylesize.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/panel-sucursales.css">
+    <link rel="stylesheet" href="../css/stylesize.css">
 </head>
 <body>
     <header>
-        
         <div class="nav">
-            <a href="index.html">
-                <img src="img/logo.png" alt="Logo de MarketOps" width="100">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Logo de MarketOps" width="100">
             </a>
 
             <nav class="barra">
-                <a href="html/detalles.html">Detalles Sucursales</a>
-                <a href="html/panel-sucursales.html">Panel Sucursales</a>
-
                 <div class="usuario">
-                <p>Usuario: ---</p>
-                <a href="index.html" class="btn">Cerrar Sesión</a>
+                    <p id="usuario"></p>
+                    <button type="button" id="cerrar-sesión" class="btn">Cerrar Sesión</button>
                 </div>
             </nav>
-
         </div>
-      <div class="titulo">
-        <h1>Panel de Sucursales</h1>
+
+        <div class="titulo">
+            <h1>Panel de Sucursales</h1>
         </div>
 
         <div class="acciones">
-                <h2>Acciones</h2>
-                <button id="filtrar-todas">Ver todas</button>
-                <button id="solo-fallas">Solo con fallas</button>
+            <h2>Acciones</h2>
+            <button id="filtrar-todas">Ver todas</button>
+            <button id="solo-fallas">Solo con fallas</button>
         </div>
     </header>
     <main>
-     <section class="sucursales">
-    <h2>Lista de Sucursales</h2>
-    <p> Aquí puedes ver todas las sucursales disponibles y sus equipos. </p>
-    <br>
-  
-    <ul class="lista-sucursales">>
-        
-    </ul>
-</section>
+        <section class="sucursales">
+            <h2>Lista de Sucursales</h2>
+            <p>Aquí puedes ver todas las sucursales disponibles y sus equipos.</p>
+            <br>
+            <ul class="lista-sucursales"></ul>
+        </section>
     </main>
-    
+
     <footer>
         <p>© 2026 MarketOps. Todos los derechos reservados.</p>
     </footer>
-    <script src="js/panel.js"></script>
-     <script src="js/filtros.js"></script>
+    <script src="../js/panel.js"></script>
+    <script src="../js/sesion.js"></script>
 </body>
+</html>
