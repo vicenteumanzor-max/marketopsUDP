@@ -38,12 +38,9 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
-footer a{
-    color:white;
-    text-decoration: none;
-}
 
 .texto-rojo {
     color: #e63946;
